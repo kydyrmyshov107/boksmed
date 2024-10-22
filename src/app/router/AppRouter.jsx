@@ -8,38 +8,11 @@ const CompanyPage = lazy(() => import("../../pages/company/ui/Company"));
 const NewsPage = lazy(() => import("../../pages/news/ui/News"));
 const ContactsPage = lazy(() => import("../../pages/contacts/ui/Contacts"));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const router =                         createBrowserRouter([
+const router = createBrowserRouter([
   {
-    element:                             <Layout />,
-    errorElement: <div>Something went wrong</div>,
+    element: <Layout />,
+    errorElement: <div>Something went wrong!!!!!</div>,
     children: [
-
-
-
-
-
-
-
-
-
-
-
       {
         path: appRoutes.home,
         element: <HomePage />,
